@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+    margin-top: 0px;
+    width: 1513px;
+}
+
+.header {
+    width: 1513px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#header-up {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header-up-left {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: -5px;
+}
+
+#text-1 {
+    color: white;
+    font-size: 16px;
+    font-family: 'Montserrat';
+}
+
+#text-1-1 {
+    color: white;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    text-decoration: none;
+}
+
+#text-1-1:hover {
+    color: #1EA9F1;
+}
+
+#text-2 {
+    color: #838383;
+    margin-right: 10px;
+    font-size: 16px;
+    font-family: 'Montserrat';
+}
+
+#space {
+    margin-right: 10px;
+}
+
+#space-2 {
+    margin-right: 40px;
+}
+
+#text-3 {
+    color: #838383;
+    font-size: 32px;
+    font-family: 'Montserrat';
+    text-decoration: none;
+}
+
+#header-bottom {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 5px;  
+    justify-content: space-between; 
+}
+
+#text-4 {
+    color: #838383;
+    font-size: 23px;
+    font-family: 'Montserrat';
+}
+
+#text-5 {
+    color: #838383;
+    font-size: 15px;
+    margin-left: 70px;
+    margin-right: 120px;
+    font-family: 'Montserrat';
+}
+
+.btn {
+    width: 144px;
+    height: 66px;
+    background-color: #2FDDF5;
+    border-radius: 28px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #1EA9F1;
+}
+
+#ukraine-icon {
+    margin-right: 25px;
+    margin-left: -40px;
+}
+
+.conteiner-1 {
+    width: 1513px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+}
+
+#conteiner-1 {
+    width: 1200px;
+    height: 813px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: space-around;
+}
+
+#concert {
+    width: 1170px;
+    height: 534px;
+    padding-top: 110px;
+}
+
+#text-6 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 49px;
+    color: black;
+}
+
+.conteiner-2 {
+    width: 1513px;
+    height: 680px;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+}
+
+#conteiner-2 {
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+
+#conteiner-2-left {
+    width: 570px;
+    height: 480px;
+    margin-left: 5px;
+}
+
+#text-6-1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #838383;
+}
+
+#text-6-2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #838383;
+}
+
+#conteiner-2-right {
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+#logo-img {
+    width: 570px;
+    height: 480px;
+    padding-top: 25px;
+}
+
+.conteiner-3 {
+    width: 1513px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#conteiner-3 {
+    width: 1200px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+#for-text-7 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#text-7 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 49px;
+    color: black;
+}
+
+#cards {
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+}
+
+#card {
+    width: 370px;
+    height: 552px;
+    background-color: #1EA9F1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+#face-1 {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#face-2 {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+#face-3 {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 70px;
+}
+
+#text-7-1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 32px;
+    color: white;
+}
+
+#text-7-2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.conteiner-4 {
+    width: 1513px;
+    height: 558px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+#conteiner-4 {
+    width: 1200px;
+    /* margin-bottom: 100px; */
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;   
+}
+
+#music {
+    width: 585px;
+    height: 358px;
+    background-color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#podcast {
+    width: 585px;
+    height: 358px;
+    background-color: white;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+#text-6-3 {
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #838383;
+}
+
+.conteiner-5 {
+    width: 1513px;
+    height: 370px;
+    background: linear-gradient(90deg, #1FAFF9 0%, #2FDDF5 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#conteiner-5 {
+    width: 1200px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+
+#text-8 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 49px;
+    color: white;
+}
+
+#for-text-8-1 {
+    align-items: flex-start;
+}
+
+#text-8-1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+}
+
+.footer {
+    width: 1513px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#footer-up {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#text-9 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    color: black;
+    text-decoration: none;
+}
+
+#text-9-1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+#text-9-1:hover {
+    color: #1EA9F1;
+}
+
+#footer-bottom {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#text-10-1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: black;
+}
+
+#text-10-2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: black;
+}
